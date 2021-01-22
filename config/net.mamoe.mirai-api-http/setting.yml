@@ -1,0 +1,28 @@
+cors: 
+  - '*'
+host: 0.0.0.0
+port: 8080
+authKey: graia-mirai-api-http-authkey # 你可以自己设定, 这里作为示范
+cacheSize: 4096
+enableWebsocket: true #是否启用 websocket 方式,若使用 websocket 方式交互会得到更好的性能
+report: 
+  enable: false
+  groupMessage: 
+    report: true
+  friendMessage: 
+    report: true
+  tempMessage: 
+    report: true
+  eventMessage: 
+    report: true
+  destinations: []
+  extraHeaders: {}
+
+heartbeat: 
+  enable: false
+  delay: 1000
+  period: 15000
+  destinations: []
+  extraBody: {}
+
+  extraHeaders: {}
